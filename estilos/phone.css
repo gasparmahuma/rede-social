@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: url('../imagens/fundo.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#phone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 397px;
+    background-image: url('../imagens/iphone-13.png');
+    background-repeat: no-repeat;
+
+}
+
+iframe#homephone {
+    position: absolute;
+    top: 9px;
+    left: 11px;
+    width: 178px;
+    height: 376px;
+    border-radius: 25px;
+}
+
+section#redes-sociais {
+    text-align: center;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.350);
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+section#redes-sociais img:hover {
+    width: 65px;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.650);
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../imagens/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#pc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 640px;
+    height: 371px;
+    background-image: url('../imagens/macbook-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+iframe#homepc {
+    position: absolute;
+    top: 23px;
+    left: 74px;
+    width: 492px;
+    height: 308px;
+}
+
+section#redes-sociais {
+    text-align: center;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.350);
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+section#redes-sociais img:hover {
+    width: 65px;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.650);
+}
